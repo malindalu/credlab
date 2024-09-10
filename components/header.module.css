@@ -1,0 +1,16 @@
+.headerContainer{
+     display: flex;
+     margin: 32px;
+}
+
+.logo{
+     width: 60px;
+
+}
+.menu{
+     color: white;
+     display: inline-flex;
+     gap: 32px;
+     font-family:'Questrial', sans-serif;
+     margin: auto;
+}
