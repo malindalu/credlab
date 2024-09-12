@@ -1,9 +1,11 @@
+import React from 'react';
 import styles from '../styles/Home.module.css';
-import Header from '../components/header';
+import Header from '../components/header/header';
+import Footer from '../components/footer/footer';
 
-export default function Home() {
+function Home() {
   return (
-    <div className={styles.page}>
+    <main className={styles.page}>
       <Header/>
       <div >
         <div className={styles.titleContainer}>
@@ -15,10 +17,14 @@ export default function Home() {
             <div className={styles.titleBold}>Here at Cred Lab,</div>
             <div>we maintain the online ecosystem</div>
           </div>
-
         </div>
       </div>
-    </div>
-    // <div>hi</div>
+      <div className={styles.gradient}/>
+      <div className={styles.homePageContent}>Coming Soon</div>
+      <Footer/>
+
+    </main>
   );
 }
+
+export default Home;

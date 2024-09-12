@@ -1,0 +1,17 @@
+.footerContainer {
+     height: 280px;
+     background: rgba(11, 29, 38, 0.8);
+     font-family: 'Fira Sans Condensed', sans-serif;
+     font-size: 12px;
+     bottom: 0;
+}
+
+.textContainer {
+     padding: 80px;
+     display: flex;
+     justify-content: space-between;
+}
+
+.textSection {
+     color: white;
+}

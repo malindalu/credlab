@@ -1,16 +1,17 @@
-.headerContainer{
+.headerContainer {
      display: flex;
      margin: 32px;
 }
 
-.logo{
+.logo {
      width: 60px;
 
 }
-.menu{
+
+.menu {
      color: white;
      display: inline-flex;
      gap: 32px;
-     font-family:'Questrial', sans-serif;
+     font-family: 'Questrial', sans-serif;
      margin: auto;
 }
