@@ -4,11 +4,13 @@ import styles from './header.module.css'
 
 const Header = () => (
      <div className={styles.headerContainer}>
-          <Logo className={styles.logo} />
+          <a href="/">  
+               <Logo href="/" className={styles.logo} />
+          </a>
           <div className={styles.menu}>
-               <div>About Us</div>
-               <div>Publications</div>
-               <div>Gallery</div>
+               <a href="/about">About Us</a>
+               <a href="/publications">Publications</a>
+               <a href="/gallery">Gallery</a>
           </div>
      </div>
 
