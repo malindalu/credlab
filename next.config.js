@@ -1,5 +1,5 @@
 module.exports = {
-     output: 'export',
+     // output: 'export',
      webpack(config) {
           config.module.rules.push({
                test: /\.svg$/i,
@@ -9,8 +9,8 @@ module.exports = {
 
           return config
      },
-     images: {
-          unoptimized: true,
-     },
-     distDir: '../../2024-lab-website/',
+     // images: {
+     //      unoptimized: true,
+     // },
+     // distDir: '../../2024-lab-website/',
 }
